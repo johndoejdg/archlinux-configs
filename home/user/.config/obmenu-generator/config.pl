@@ -75,7 +75,11 @@
 our $CONFIG = {
   "editor"              => "geany",
   "Linux::DesktopFiles" => {
-                             desktop_files_paths     => ["/usr/share/applications", "/usr/local/share/applications"],
+                             desktop_files_paths     => [
+                                                          "/usr/share/applications",
+                                                          "/usr/local/share/applications",
+                                                          "/home/korvinko/.wine/drive_c/users/korvinko/Desktop",
+                                                        ],
                              gtk_rc_filename         => "/home/korvinko/.gtkrc-2.0",
                              icon_dirs_first         => undef,
                              icon_dirs_last          => undef,
@@ -93,5 +97,5 @@ our $CONFIG = {
   "missing_icon"        => "gtk-missing-image",
   "name_keys"           => ["Name"],
   "terminal"            => "xterm",
-  "VERSION"             => 0.66,
+  "VERSION"             => 0.67,
 }

@@ -31,8 +31,7 @@ our $SCHEMA = [
     #          COMMAND                 LABEL                ICON
     {item => ['xdg-open .',        'File Manager',      'file-manager']},
     {item => ['xfce4-terminal',    'Terminal',          'terminal']},
-    #{item => ['xdg-open http://',  'Web Browser',       'web-browser']},
-    #{item => ['gmrun',             'Run command',       'system-run']},
+    {item => ['xdg-open http://',  'Web Browser',       'web-browser']},
 
     {sep => 'Categories'},
 
@@ -44,16 +43,17 @@ our $SCHEMA = [
     {cat => ['graphics',    'Graphics',    'applications-graphics']},
     {cat => ['audiovideo',  'Multimedia',  'applications-multimedia']},
     {cat => ['network',     'Network',     'applications-internet']},
+
     {cat => ['office',      'Office',      'applications-office']},
     {cat => ['other',       'Other',       'applications-other']},
     {cat => ['settings',    'Settings',    'applications-accessories']},
     {cat => ['system',      'System',      'applications-system']},
 
-    #{cat => ['qt',          'QT Applications',    'qt4logo']},
-    #{cat => ['gtk',         'GTK Applications',   'gnome-applications']},
-    #{cat => ['x_xfce',      'XFCE Applications',  'applications-other']},
-    #{cat => ['gnome',       'GNOME Applications', 'gnome-applications']},
-    #{cat => ['consoleonly', 'CLI Applications',   'applications-utilities']},
+#    {cat => ['qt',          'QT Applications',    'qt4logo']},
+#    {cat => ['gtk',         'GTK Applications',   'gnome-applications']},
+#    {cat => ['x_xfce',      'XFCE Applications',  'applications-other']},
+#    {cat => ['gnome',       'GNOME Applications', 'gnome-applications']},
+#    {cat => ['consoleonly', 'CLI Applications',   'applications-utilities']},
 
     #                  LABEL          ICON
     #{begin_cat => ['My category',  'cat-icon']},
@@ -65,6 +65,14 @@ our $SCHEMA = [
         {item => ['wine "/home/korvinko/.wine/drive_c/Program Files (x86)/Bitvise SSH Client/BvSsh.exe"', 'BvSsh']},
         {item => ['wine "/home/korvinko/.wine/drive_c/Program Files (x86)/AIMP/AIMP.exe"', 'AIMP']},
     {end_cat   => undef},
+
+    {begin_cat => ['Opt',  'cat-icon']},
+        {item => ['/opt/telegram/Telegram', 'Telegram']},
+    {end_cat   => undef},
+
+
+   # {pipe => ['python /opt/menu/dir-menu.py', 'Places-Comp', '/usr/share/icons/directory.png']}, . 
+
 
 
     #            COMMAND     LABEL        ICON
