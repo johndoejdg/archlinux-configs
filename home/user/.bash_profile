@@ -6,5 +6,5 @@
 
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
-alias go_sleep='sudo systemctl suspend | slock'
+
 
