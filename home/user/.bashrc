@@ -20,5 +20,5 @@ alias set_wine64='export WINEPREFIX=~/.wine && export WINEARCH=win64'
 
 export GOPATH=~/go
 export _JAVA_OPTIONS='-Dsun.java2d.opengl=true'
-export PHP_IDE_CONFIG="serverName=crm.loc"
+export PHP_IDE_CONFIG="serverName=erp.loc"
 export XDEBUG_CONFIG="idekey=PHPSTORM"
