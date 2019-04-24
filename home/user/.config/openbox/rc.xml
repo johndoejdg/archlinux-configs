@@ -419,7 +419,7 @@
         <command>kfmclient openProfile filemanagement</command>
       </action>
     </keybind> -->
-    <keybind key="A-Return">
+    <keybind key="W-Return">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
